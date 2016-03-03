@@ -28,8 +28,8 @@ racadm_cmd 10.1.0 46 78
 echo ".43-.45 management hosts"
 
 echo "##### row 01 rack 03 : U36 --> U1 #####"
-racadm_cmd 10.1.0 86 119
 echo ".84-.85 management hosts"
+racadm_cmd 10.1.0 86 119
 
 echo "##### row 01 rack 04 : U36 --> U1 #####"
 racadm_cmd 10.1.0 125 160
@@ -38,11 +38,11 @@ echo "##### row 01 rack 06 : U36 --> U1 #####"
 racadm_cmd 10.1.0 166 201
 
 echo "##### row 01 rack 07 : U37, U35 --> U1 #####" 
-racadm_cmd 10.1.0 210 225
 echo ".207-.209 ceph hosts"
+racadm_cmd 10.1.0 210 225
 
 echo "##### row 01 rack 08 : U37, U35 --> U1 #####" 
-racadm_cmd 10.1.0 231 248
+racadm_cmd 10.1.0 231 249
 
 echo "##### row 01 rack 09 : U37, U35 --> U1 #####"
 racadm_cmd 10.1.0 255 255
