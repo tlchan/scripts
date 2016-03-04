@@ -13,7 +13,7 @@ function racadm_cmd ()
   do
     bootorder=$(sshpass -p $PASS ssh $SSHOPTS $USER@cnlvr${1}r${2}${3}${i}-oob.lv.cncf.io \
         racadm get BIOS.BiosBootSettings.bootseq | grep BootSeq=)
-    echo "$1.$i : $bootorder"
+    echo "cnlvr${1}r${2}${3}${i}-oob : $bootorder"
   done
 }
 
