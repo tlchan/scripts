@@ -20,7 +20,8 @@ function racadm_cmd ()
 }
 
 
-for i in 01 02 03 04 05 06; do
+# skip rack 05 (no hosts)
+for i in 01 02 03 04 06; do
   echo "##### row 01 rack $i #####" 
   racadm_cmd 01 $i c 1 36
 done 
@@ -30,7 +31,8 @@ for i in 07 08 09 10; do
   racadm_cmd 01 $i s 1 19
 done 
 
-for i in 01 02 03 04 05 06 07; do
+# skip rack 05 (no hosts)
+for i in 01 02 03 04 06 07; do
   echo "##### row 02 rack $i #####"
   racadm_cmd 02 $i c 1 36
 done
